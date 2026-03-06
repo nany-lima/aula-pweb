@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<title>Portal do Clube de Tecnologia</title>
+</head>
+
+<body>
+  
+<!-- CABEÇALHO -->
+<header>
+<h1>Portal do Clube de Tecnologia</h1>
+
+<nav>
+<a href="#tabela">Ver Cronograma</a> |
+<a href="#formulario">Inscrição</a>
+</nav>
+<hr>
+</header>
+
+<!-- TABELA  -->
+<section id="tabela">
+<h2>Cronograma de Oficinas</h2>
+
+<table border="1">
+
+<caption>Horários das Oficinas</caption>
+ 
+<thead>
+ <tr>
+    <th>Data</th>
+    <th>Oficina</th>
+    th>Vagas Totais</th>
+    <th>Vagas Preenchidas</th>
+    <th>Link</th>
+ </tr>
+</thead> 
+ 
+<tbody>
+ <tr>
+   <td>10/03</td>
+   <td>HTML</td>
+   <td>30</td>
+   <td>20</td>
+   <td><a href="detalhes.html">Detalhes</a></td>
+ </tr>
+
+ <tr>
+  <td>12/03</td>
+  <td>Python</td>
+  <td>25</td>
+  <td>15</td>
+  <td><a href="detalhes.html">Detalhes</a></td>
+ </tr>
+</tbody>
+
+<tfoot>
+  <tr>
+<td colspan="5">Total de vagas disponíveis: 20</td>
+ </tr>
+</tfoot>
+
+</table>
+</section>
+
+<hr>
+
+<!-- FORMULÁRIO -->
+<section id="formulario">
+<h2>Formulário de Inscrição</h2>
+
+<form>
+
+<fieldset>
+<legend>Dados do Aluno</legend>
+
+    <label for="nome">Nome:</label><br>
+  <input type="text" id="nome" required><br><br>
+
+    <label for="idade">Idade:</label><br>
+ <input type="number" id="idade" required><br><br>
+
+   <label>Turno:</label><br>
+<select>
+<optgroup label="Horário">
+<option>Manhã</option>
+<option>Tarde</option>
+</optgroup>
+</select>
+
+<br><br>
+
+    <label>Observações:</label><br>
+ <textarea></textarea>
+
+<br><br>
+<button type="submit">Enviar</button>
+
+</fieldset>
+
+</form>
+</section>
+
+<hr>
+
+<!-- RODAPÉ -->
+<footer>
+<p>© 2026 - Desenvolvido por ThauannyLima</p>
+<p>Contato: email:mtsl2@aluno.ifal.edu.br</p>
+</footer>
+
+</body>
+</html>
