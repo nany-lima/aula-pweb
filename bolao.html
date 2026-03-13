@@ -1,0 +1,35 @@
+<form>
+  <fieldset>
+    <legend>Dados Pessoais</legend>
+    <label>Nome: <input type="text" required></label><br>
+    <label>Email: <input type="email" required></label><br>
+    <label>Senha: <input type="password"></label><br>
+    <label>Cidade: 
+      <input list="cidades">
+      <datalist id="cidades">
+        <option value="Recife">
+        <option value="Maceió">
+        <option value="Rio de Janeiro">
+        <option value="São Paulo">
+      </datalist>
+    </label>
+  </fieldset>
+
+  <fieldset>
+    <legend>Palpites</legend>
+    <label>Data: <input type="date"></label><br>
+    <label>Categoria:
+      <select>
+        <option>Melhor Filme</option>
+        <option>Melhor Direção</option>
+      </select>
+    </label><br>
+    <p>Ator favorito:</p>
+    <label><input type="radio" name="ator"> Wagner Moura</label>
+    <label><input type="radio" name="ator"> Outro</label><br>
+    <label>Confiança: <input type="range"></label><br>
+    <label>Justificativa: <textarea></textarea></label>
+  </fieldset>
+
+  <button>Enviar</button>
+</form>
